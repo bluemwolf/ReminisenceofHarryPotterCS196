@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Bleach
+  - Food
   layers:
   - Default
   - TransparentFX

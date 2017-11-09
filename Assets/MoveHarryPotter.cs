@@ -37,7 +37,9 @@ public class MoveHarryPotter : MonoBehaviour {
 		if (coll.gameObject.tag == "Bleach") {
 			ps.loseHealth (2);
 		}
-
+		if (coll.gameObject.tag == "Food") {
+			ps.addHealth (50);
+		}
 			
 
 	}
