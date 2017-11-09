@@ -7,13 +7,13 @@ public class MoveHarryPotter : MonoBehaviour {
 
 	private Rigidbody2D rb;
 	public int factor;
-	public HealthScript hs;
+	public PlayerHealth ps;
 
 
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody2D> ();
-		hs = GameObject.Find ("HealthSlider").GetComponent<HealthScript> ();
+		ps = GetComponent<PlayerHealth> ();
 	}
 	
 
@@ -32,8 +32,9 @@ public class MoveHarryPotter : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D coll) {
 		if (coll.gameObject.tag == "Enemy") {
-			hs.DoDamage ();
+			ps.loseHealth (5);
 		}
+
 			
 
 	}

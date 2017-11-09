@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class HealthScript : MonoBehaviour {
+public class SliderScript : MonoBehaviour {
 
 	public Slider s;
 	public int val;
@@ -20,11 +20,9 @@ public class HealthScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-			s.value = val;
+		s.value = GameObject.Find ("HarryPotter").GetComponent<PlayerHealth>().currentHealth;
 		
 	}
 
-	public void DoDamage() {
-		val -= damageValue;
-	}
+
 }
