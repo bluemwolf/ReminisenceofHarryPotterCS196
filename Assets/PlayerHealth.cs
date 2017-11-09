@@ -5,16 +5,20 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour {
     public int maxHealth = 100;
     public int currentHealth;
+	public SpriteRenderer spriteRenderer;
+	public Sprite deadSprite;
 	// Use this for initialization
 	void Start () {
         currentHealth = maxHealth;  
+		spriteRenderer = GetComponent<SpriteRenderer>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		if (currentHealth <= 0)
         {
-            gameObject.SetActive(false);
+			
+			spriteRenderer.sprite = deadSprite;
             //somehow make it look like it dies or display a message
         }
         if (currentHealth > maxHealth)

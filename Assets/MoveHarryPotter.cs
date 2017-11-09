@@ -32,11 +32,16 @@ public class MoveHarryPotter : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D coll) {
 		if (coll.gameObject.tag == "Enemy") {
-			ps.loseHealth (5);
+			ps.loseHealth (20);
 		}
-
+		if (coll.gameObject.tag == "Bleach") {
+			ps.loseHealth (2);
+		}
+		if (coll.gameObject.tag == "Food") {
+			ps.addHealth (50);
+		}
 			
 
 	}
-		
+
 }
