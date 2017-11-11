@@ -16,7 +16,7 @@ public class FireProjectileScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown(KeyCode.Space))
+		if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             FireProjectile();
         }
@@ -24,15 +24,25 @@ public class FireProjectileScript : MonoBehaviour {
 
     public void FireProjectile()
     {
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (GetComponent<MoveHarryPotter>().getPosition() == 0)
+        {
+            GameObject clone = Instantiate(projectile, transform.position, Quaternion.identity) as GameObject;
+            clone.GetComponent<Rigidbody2D>().velocity = (new Vector3(-10, 0, 10));
+            Destroy(clone, 2.0f);
+        } else if (GetComponent<MoveHarryPotter>().getPosition() == 1)
+        {
+            GameObject clone = Instantiate(projectile, transform.position, Quaternion.identity) as GameObject;
+            clone.GetComponent<Rigidbody2D>().velocity = (new Vector3(0, 10, 10));
+            Destroy(clone, 2.0f);
+        } else if (GetComponent<MoveHarryPotter>().getPosition() == 2)
         {
             GameObject clone = Instantiate(projectile, transform.position, Quaternion.identity) as GameObject;
             clone.GetComponent<Rigidbody2D>().velocity = (new Vector3(10, 0, 10));
             Destroy(clone, 2.0f);
-        } else if (Input.GetKey(KeyCode.LeftArrow))
+        } else if (GetComponent<MoveHarryPotter>().getPosition() == 3)
         {
             GameObject clone = Instantiate(projectile, transform.position, Quaternion.identity) as GameObject;
-            clone.GetComponent<Rigidbody2D>().velocity = (new Vector3(-10, 0, 10));
+            clone.GetComponent<Rigidbody2D>().velocity = (new Vector3(0, -10, 10));
             Destroy(clone, 2.0f);
         }
         

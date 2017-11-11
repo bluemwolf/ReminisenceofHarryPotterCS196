@@ -8,6 +8,7 @@ public class MoveHarryPotter : MonoBehaviour {
 	private Rigidbody2D rb;
 	public int factor;
 	public PlayerHealth ps;
+    private int position;
 
 
 	// Use this for initialization
@@ -29,8 +30,29 @@ public class MoveHarryPotter : MonoBehaviour {
 
 	}
 
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            position = 0;
+        } else if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            position = 1;
+        } else if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            position = 2;
+        } else if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            position = 3;
+        }
+    }
 
-	void OnCollisionEnter2D(Collision2D coll) {
+    public int getPosition()
+    {
+        return position;
+    }
+
+    void OnCollisionEnter2D(Collision2D coll) {
 		if (coll.gameObject.tag == "Enemy") {
 			ps.loseHealth (20);
 		}
