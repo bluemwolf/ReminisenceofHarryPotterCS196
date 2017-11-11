@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class StartGame : MonoBehaviour {
 
@@ -12,6 +13,6 @@ public class StartGame : MonoBehaviour {
   }
 
   void TaskOnClick() {
-	    SceneManager.LoadLevel("Some Scene");
+	    Application.LoadLevel("Some Scene");
   }
 }
