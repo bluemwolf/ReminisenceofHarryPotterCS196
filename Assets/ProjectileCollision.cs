@@ -17,7 +17,7 @@ public class ProjectileCollision : MonoBehaviour {
     {
         if (coll.gameObject.tag == "Enemy")
         {
-            gameObject.SetActive(false);
+            Destroy(this.gameObject);
         }
     }
 }
