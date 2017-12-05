@@ -32,6 +32,7 @@ public class FireProjectileScript : MonoBehaviour {
         } else if (GetComponent<MoveHarryPotter>().getPosition() == 1)
         {
             GameObject clone = Instantiate(projectile, transform.position, Quaternion.identity) as GameObject;
+            clone.transform.Rotate(Vector3.forward * -90);
             clone.GetComponent<Rigidbody2D>().velocity = (new Vector3(0, 10, 10));
             Destroy(clone, 2.0f);
         } else if (GetComponent<MoveHarryPotter>().getPosition() == 2)
@@ -42,6 +43,7 @@ public class FireProjectileScript : MonoBehaviour {
         } else if (GetComponent<MoveHarryPotter>().getPosition() == 3)
         {
             GameObject clone = Instantiate(projectile, transform.position, Quaternion.identity) as GameObject;
+            clone.transform.Rotate(Vector3.forward * -90);
             clone.GetComponent<Rigidbody2D>().velocity = (new Vector3(0, -10, 10));
             Destroy(clone, 2.0f);
         }
