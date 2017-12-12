@@ -1,4 +1,4 @@
 sceneSetups:
-- path: C:/Users/pinkd/Documents/ReminisenceofHarryPotterCS196/Assets/trainScene.unity
+- path: Assets/trainScene.unity
   isLoaded: 1
   isActive: 1

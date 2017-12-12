@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1280
     height: 587
-  m_MinSize: {x: 681, y: 492}
+  m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 35282
+  controlID: 14507
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,10 +130,10 @@ MonoBehaviour:
     y: 0
     width: 999
     height: 587
-  m_MinSize: {x: 404, y: 492}
+  m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 35283
+  controlID: 14508
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,10 +154,10 @@ MonoBehaviour:
     y: 0
     width: 999
     height: 308
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 35263
+  controlID: 14509
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -366,9 +366,9 @@ MonoBehaviour:
     height: 287
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 622d0000
-    m_LastClickedID: 0
-    m_ExpandedIDs: 7ee1f5ffda54f9ff5c5cf9ffc85afdff7458feff0efcfefffc7affff24b2ffff00000000
+    m_SelectedIDs: b67b0000
+    m_LastClickedID: 31670
+    m_ExpandedIDs: 60f9faffa405fbff7206fbffee07fbff4e08fbff5808fbff720efbff104bfbffe47ffbff0681fbff2882fbffb8f4fbff06f6fbffe4f8fbff5a01fcff3a02fcff7003fcffcc03fcff1004fcfff858fcffb26bfcffb289fcff08a6fcff6a22fdff063bfdff48e6fdff46ebfdffe4ecfdff0aeefdff30effdff54f0fdff6ef2fdffb8f3fdff02f5fdff68f6fdfff69effff88a6ffffacb0ffff6ebdffffe8d5ffff14eaffff1afcffff0000000074430000c8430000d64600002a470000a44c0000f84c00004e4d00005e4d00001453000068530000be530000ce5400002255000076550000ae5500000056000054560000a8560000b8560000e0560000b45e0000ea5e0000085f0000fc6400003265000052650000046c0000446c00005e7b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -418,14 +418,14 @@ MonoBehaviour:
     width: 791
     height: 287
   m_SceneLighting: 1
-  lastFramingTime: 7426.268898221857
+  lastFramingTime: 3145.2606290953386
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 9.568173, y: 12.025607, z: 0}
+    m_Target: {x: 447.075, y: 83.5, z: 0}
     speed: 2
-    m_Value: {x: 9.568173, y: 12.025607, z: 0}
+    m_Value: {x: 447.075, y: 83.5, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -452,9 +452,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 203.27214
+    m_Target: 501.61478
     speed: 2
-    m_Value: 203.27214
+    m_Value: 501.61478
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -538,10 +538,10 @@ MonoBehaviour:
   m_LastProjectPath: C:\Users\pinkd\Documents\GitHub\ReminisenceofHarryPotterCS196
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d22c0000
-    m_LastClickedID: 11474
-    m_ExpandedIDs: 00000000d22c0000622d00009e3b00007c3c000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 72.15234}
+    m_SelectedIDs: ba260000
+    m_LastClickedID: 9914
+    m_ExpandedIDs: 00000000ba260000de260000e4260000d4340000fa340000ce350000683600006238000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -569,7 +569,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d22c0000622d00009e3b00007c3c000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000ba260000de260000e4260000d4340000fa340000ce350000683600006238000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -597,7 +597,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000aa260000e2270000ea350000fc2a0000922b00005a2700009a7e0100ce290000967c000084150100
+    m_ExpandedInstanceIDs: c6230000aa260000e2270000ea350000fc2a0000922b00005a2700009a7e0100ce290000967c00008415010012360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -679,7 +679,7 @@ MonoBehaviour:
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
-    m_CachedPref: 160
+    m_CachedPref: -160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
