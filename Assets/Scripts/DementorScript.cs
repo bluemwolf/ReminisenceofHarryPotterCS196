@@ -8,7 +8,7 @@ public class DementorScript : MonoBehaviour {
 	public Rigidbody2D rb;
 	public float randomness;
 	public float factor;
-	public float gravConst;
+	private float gravConst;
 	public Vector2 vect;
 	public GameObject player;
 	public float agressiveness;
@@ -18,6 +18,9 @@ public class DementorScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody2D>();
+		randomness = 10;
+		player = GameObject.Find("Player");
+		gravConst = 0;
 	}
 
 	// Update is called once per frame
