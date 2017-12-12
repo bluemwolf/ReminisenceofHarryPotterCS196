@@ -6,11 +6,14 @@ public class DementorScript : MonoBehaviour {
 
 
 	public Rigidbody2D rb;
-	public float randMax;
-	public float randMin;
+	public float randomness;
 	public float factor;
 	public float gravConst;
 	public Vector2 vect;
+	public GameObject player;
+	public float agressiveness;
+
+
 
 	// Use this for initialization
 	void Start () {
@@ -20,10 +23,11 @@ public class DementorScript : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate () {
 
-		Vector2 randVector = new Vector2(Random.Range(randMin, randMax), Random.Range(randMin, randMax));
+		Vector2 randVector = new Vector2(Random.Range(-randomness, randomness), Random.Range(-randomness, randomness));
 
+		Vector2 agro = (player.transform.position - transform.position) * (agressiveness);
 
-		rb.AddForce((randVector + (rb.position * -gravConst )) * factor);
+		rb.AddForce((randVector + agro + (rb.position * -gravConst ))  * factor);
 		vect = rb.velocity;
 	}
 }
