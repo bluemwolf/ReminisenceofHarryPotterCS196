@@ -69,6 +69,7 @@
      <Compile Include="Assets\Scripts\CompleteRotator.cs" />
      <Compile Include="Assets\Scripts\DamageToEnemy.cs" />
      <Compile Include="Assets\Scripts\DamageToPlayer.cs" />
+     <Compile Include="Assets\Scripts\DementorScript.cs" />
      <Compile Include="Assets\Scripts\DestroyWithDelay.cs" />
      <Compile Include="Assets\Scripts\DialogueHolder.cs" />
      <Compile Include="Assets\Scripts\DialogueManager.cs" />
