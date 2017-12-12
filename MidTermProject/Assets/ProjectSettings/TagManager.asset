@@ -4,9 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Enemy
-  - Bleach
-  - Food
+  - PickUp
   layers:
   - Default
   - TransparentFX
@@ -16,8 +14,8 @@ TagManager:
   - UI
   - 
   - 
-  - background
-  - items
+  - 
+  - 
   - 
   - 
   - 
@@ -43,7 +41,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: New Layer
-    uniqueID: 3128203233
     locked: 0
