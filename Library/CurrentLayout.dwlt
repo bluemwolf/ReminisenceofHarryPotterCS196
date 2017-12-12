@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1280
     height: 637
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1280
     height: 587
-  m_MinSize: {x: 683, y: 492}
-  m_MaxSize: {x: 14004, y: 14042}
+  m_MinSize: {x: 679, y: 471}
+  m_MaxSize: {x: 14000, y: 14021}
   vertical: 0
-  controlID: 204
+  controlID: 1394
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,10 +130,10 @@ MonoBehaviour:
     y: 0
     width: 999
     height: 587
-  m_MinSize: {x: 406, y: 492}
-  m_MaxSize: {x: 10002, y: 14042}
+  m_MinSize: {x: 404, y: 471}
+  m_MaxSize: {x: 10000, y: 14021}
   vertical: 1
-  controlID: 253
+  controlID: 1395
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,10 +154,10 @@ MonoBehaviour:
     y: 0
     width: 999
     height: 308
-  m_MinSize: {x: 406, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
+  m_MinSize: {x: 404, y: 221}
+  m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 185
+  controlID: 1396
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -366,9 +366,9 @@ MonoBehaviour:
     height: 287
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d4350000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0af6ffff1afcffff00000000
+    m_ExpandedIDs: 60efffff1afcffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -418,7 +418,7 @@ MonoBehaviour:
     width: 791
     height: 287
   m_SceneLighting: 1
-  lastFramingTime: 5456.177811290207
+  lastFramingTime: 807.0968933752247
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
@@ -452,9 +452,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 161.27219
+    m_Target: 1964.372
     speed: 2
-    m_Value: 161.27219
+    m_Value: 1964.372
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -535,13 +535,13 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/allAssets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\pinkd\Documents\GitHub\ReminisenceofHarryPotterCS196
+  m_LastProjectPath: C:\Users\pinkd\Documents\MidTermProject-20171211T220554Z-001\MidTermProject
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 51}
     m_SelectedIDs: e0260000
     m_LastClickedID: 9952
-    m_ExpandedIDs: 00000000b6260000da260000ca3400008237000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000b6260000da260000ca3400008037000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -569,7 +569,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b6260000da260000ca3400008237000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000b6260000da260000ca3400008037000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
