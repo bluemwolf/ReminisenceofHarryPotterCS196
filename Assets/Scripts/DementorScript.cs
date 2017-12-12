@@ -10,6 +10,7 @@ public class DementorScript : MonoBehaviour {
 	public float randMin;
 	public float factor;
 	public float gravConst;
+	public Vector2 vect;
 
 	// Use this for initialization
 	void Start () {
@@ -22,6 +23,7 @@ public class DementorScript : MonoBehaviour {
 		Vector2 randVector = new Vector2(Random.Range(randMin, randMax), Random.Range(randMin, randMax));
 
 
-		rb.AddForce((randVector + (rb.position * gravConst ) * factor);
+		rb.AddForce((randVector + (rb.position * -gravConst )) * factor);
+		vect = rb.velocity;
 	}
 }
