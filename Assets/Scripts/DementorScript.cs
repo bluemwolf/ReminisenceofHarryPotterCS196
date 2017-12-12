@@ -22,6 +22,6 @@ public class DementorScript : MonoBehaviour {
 		Vector2 randVector = new Vector2(Random.Range(randMin, randMax), Random.Range(randMin, randMax));
 
 
-		rb.AddForce(factor * (randVector + gravConst * rb.position);
+		rb.AddForce((randVector + (rb.position * gravConst ) * factor);
 	}
 }
