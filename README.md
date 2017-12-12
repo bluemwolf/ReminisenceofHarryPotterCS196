@@ -14,3 +14,11 @@ Featuring exciting game play such as
 
  Guy that watched us struggle:
  - Eric Lee
+
+ #Installation
+
+ 1. Install Git
+ 2. Install Unity
+ 3. `git clone https://github.com/bluemwolf/ReminisenceofHarryPotterCS196.git`
+
+ Enjoy our world class game!
