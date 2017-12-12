@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 //need to add script to player/object that has the health
 public class PlayerHealth : MonoBehaviour {
     public int maxHealth = 100;
@@ -17,8 +18,8 @@ public class PlayerHealth : MonoBehaviour {
 	void Update () {
 		if (currentHealth <= 0)
         {
-			
-			spriteRenderer.sprite = deadSprite;
+            SceneManager.LoadScene("TestRun");
+			//spriteRenderer.sprite = deadSprite;
             //somehow make it look like it dies or display a message
         }
         if (currentHealth > maxHealth)
