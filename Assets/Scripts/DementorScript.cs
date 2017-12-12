@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class DementorScript : MonoBehaviour {
 
-	public float gravityConstant;
-	public Rigidbody rb;
+
+	public Rigidbody2D rb;
 	public float randMax;
 	public float randMin;
+	public float factor;
 
 	// Use this for initialization
 	void Start () {
@@ -17,9 +18,9 @@ public class DementorScript : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate () {
 
-		Vector2 randVector = new Vector2(Random.range(randMin, randMax), Random.range(randMin, randMax));
+		Vector2 randVector = new Vector2(Random.Range(randMin, randMax), Random.Range(randMin, randMax));
 
 
-		rb.AddForce(randVector);
+		rb.AddForce(factor * randVector);
 	}
 }
