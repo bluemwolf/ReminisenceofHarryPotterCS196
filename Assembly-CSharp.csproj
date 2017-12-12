@@ -73,6 +73,7 @@
      <Compile Include="Assets\Scripts\DestroyWithDelay.cs" />
      <Compile Include="Assets\Scripts\DialogueHolder.cs" />
      <Compile Include="Assets\Scripts\DialogueManager.cs" />
+     <Compile Include="Assets\Scripts\EndGame.cs" />
      <Compile Include="Assets\Scripts\EnemyHealth.cs" />
      <Compile Include="Assets\Scripts\FireProjectileScript.cs" />
      <Compile Include="Assets\Scripts\HurtEnemy.cs" />
