@@ -2,6 +2,7 @@
 An exciting new Harry Potter game for PC.  
 Featuring exciting game play such as
  - walking forward
+ - shoot blue lazers out of your forehead
  - look at the friendly dementor/ghost things
  - click on the quit button
  - and much more!!!
