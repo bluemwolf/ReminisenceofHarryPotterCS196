@@ -64,6 +64,7 @@
      <Compile Include="Assets\allAssets\Scripts\TiltWindow.cs" />
      <Compile Include="Assets\CameraController.cs" />
      <Compile Include="Assets\playerController.cs" />
+     <Compile Include="Assets\Scripts\BackOnClick.cs" />
      <Compile Include="Assets\Scripts\CompleteCameraController.cs" />
      <Compile Include="Assets\Scripts\CompletePlayerController.cs" />
      <Compile Include="Assets\Scripts\CompleteRotator.cs" />
@@ -76,6 +77,7 @@
      <Compile Include="Assets\Scripts\EndGame.cs" />
      <Compile Include="Assets\Scripts\EnemyHealth.cs" />
      <Compile Include="Assets\Scripts\FireProjectileScript.cs" />
+     <Compile Include="Assets\Scripts\HelpOnClick.cs" />
      <Compile Include="Assets\Scripts\HurtEnemy.cs" />
      <Compile Include="Assets\Scripts\MoveHarryPotter.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
