@@ -11,11 +11,12 @@ Featuring exciting game play such as
  - Jacqueline Osborn
  - Anubhav Ghost
  - Lawson Probasco
+ - Zoë Park
 
  Guy that watched us struggle:
  - Eric Lee
 
- #Installation
+ # Installation
 
  1. Install Git
  2. Install Unity
