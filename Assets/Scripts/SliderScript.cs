@@ -20,7 +20,7 @@ public class SliderScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		s.value = GameObject.Find ("Player").GetComponent<PlayerHealth>().currentHealth;
+		s.value = GameObject.Find("Player").GetComponent<PlayerHealth>().currentHealth;
 		
 	}
 

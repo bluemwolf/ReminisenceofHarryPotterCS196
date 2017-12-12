@@ -15,7 +15,7 @@ public class DamageToPlayer : MonoBehaviour {
 	void Update () {
 		
 	}
-    void OnCollisionEnter2D(Collision2D other) //when the player collides with an enemy, player loses health
+    void OnTriggerEnter2D(Collider2D other) //when the player collides with an enemy, player loses health
     {
         if (other.gameObject.tag == "Player") //whatever the player object is called
         {
