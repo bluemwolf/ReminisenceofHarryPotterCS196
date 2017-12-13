@@ -36,5 +36,5 @@ sysinfo.txt
 MidTermProject/Assets/.DS_Store
 *.meta
 
-Library/metadata/**
+Library/**
 *.DS_Store
