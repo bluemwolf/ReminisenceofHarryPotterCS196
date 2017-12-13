@@ -21,7 +21,7 @@ public class DementorScript : MonoBehaviour {
 		randomness = 10;
 		player = GameObject.Find("Player");
 		gravConst = 0;
-	
+
 	}
 
 	// Update is called once per frame
@@ -29,7 +29,8 @@ public class DementorScript : MonoBehaviour {
 
 		Vector2 randVector = new Vector2(Random.Range(-randomness, randomness), Random.Range(-randomness, randomness));
 
-		Vector2 agro = (player.transform.position - transform.position) * (agressiveness);
+		Vector2 agro = player.transform.position - transform.position;
+	 	agro.Normalize();
 
 		rb.AddForce((randVector + agro + (rb.position * -gravConst ))  * factor);
 		vect = rb.velocity;
